@@ -18,7 +18,7 @@ const BackButton = styled(Link)`
   gap: 0.5rem;
   margin-bottom: 2rem;
   padding: 0.5rem 1rem;
-  background: #f5f5f5;
+  background: #fff1d5;
   border-radius: 8px;
   text-decoration: none;
   color: #333;
@@ -43,7 +43,7 @@ const EmptyCart = styled(motion.div)`
   align-items: center;
   justify-content: center;
   padding: 3rem;
-  background: #f9f9f9;
+  background: #fff1d5;
   border-radius: 12px;
   text-align: center;
 `;

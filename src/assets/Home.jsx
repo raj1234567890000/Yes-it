@@ -19,7 +19,7 @@ const Header = styled.header`
   padding: 20px 0;
   margin-bottom: 30px;
   border-bottom: 1px solid #eee;  
-  background: #f9f9f9;
+  background: #fff1d5;
     border-radius: 12px;
 `;
 
@@ -40,10 +40,10 @@ const CartButton = styled(Link)`
   padding: 8px 16px;
   border-radius: 20px;
   transition: all 0.3s ease;
-  background: #f5f5f5;
+  background: #fff1d5;
 
   &:hover {
-    background: #e0e0e0;
+    background: #fff1d5;
     transform: translateY(-2px);
   }
 `;
