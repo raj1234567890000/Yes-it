@@ -18,7 +18,9 @@ const Header = styled.header`
   align-items: center;
   padding: 20px 0;
   margin-bottom: 30px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eee;  
+  background: #f9f9f9;
+    border-radius: 12px;
 `;
 
 const Title = styled.h1`
@@ -208,8 +210,8 @@ const Home = () => {
   return (
     <Container>
       <Header>
-        <Title>Shop Products</Title>
-        <CartButton to="/cart" aria-label="Cart">
+        <Title style={{marginLeft:"20px"}}>Shop Products</Title>
+        <CartButton to="/cart" aria-label="Cart" style={{marginRight:"20px"}}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
